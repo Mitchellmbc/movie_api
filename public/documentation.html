@@ -10,5 +10,78 @@
       I can learn more about moveis I've watched or am interested in.</li>
       <li>As a user, I want to be able to create a profile so I can save data about my favourite movies.</li>
     </ul>
+    <p>The following is a list of http requests and responses dealt with for this API, along with the URL endpoints</p>
+    <table>
+      <tr>
+        <th>Business Logic</th>
+        <th>URL</th>
+        <th>HTTP Method</th>
+        <th>Request Body Data Format</th>
+        <th>Response body data format</th>
+      </tr>
+      <tr>
+        <td>Get a list of all movies</td>
+        <td>/movies</td>
+        <td>GET</td>
+        <td>none</td>
+        <td>JSON object holding data about all movies </td>
+      </tr>
+      <tr>
+        <td>Return data about a specific movie using the title</td>
+        <td>/movies/[title]</td>
+        <td>GET</td>
+        <td>none</td>
+        <td>JSON object containing the following information for a specific movie; description, genre, director, image URL, featured or not </td>
+      </tr>
+      <tr>
+        <td>Return data about a genre (description) by name/title (i.e. thriller)</td>
+        <td>/movies/[genre]</td>
+        <td>GET</td>
+        <td>none</td>
+        <td>JSON object holding data about a genre </td>
+      </tr>
+      <tr>
+        <td>Return data about a director by name</td>
+        <td>/movies/[director]</td>
+        <td>GET</td>
+        <td>none</td>
+        <td>JSON object holding data about a director; bio, birth year, death year. </td>
+      </tr>
+      <tr>
+        <td>register a new user</td>
+        <td>/user</td>
+        <td>POST</td>
+        <td>JSON object containing a username and a password</td>
+        <td>JSON object holding data about the user that was added </td>
+      </tr>
+      <tr>
+        <td>update username</td>
+        <td>/user/[username]</td>
+        <td>Put</td>
+        <td>NONE</td>
+        <td>text message indicating the new username </td>
+      </tr>
+      <tr>
+        <td>add movie to favourires</td>
+        <td>/user/favourites/</td>
+        <td>POST</td>
+        <td>JSON object holding data about the movie that needs to be added</td>
+        <td>text message saying that a movie has been added  </td>
+      </tr>
+      <tr>
+        <td>remove movie to favourires</td>
+        <td>/user/favourites/[movie]</td>
+        <td>DELETE</td>
+        <td>none</td>
+        <td>text message saying that a movie has been removed successfully  </td>
+      </tr>
+      <tr>
+        <td>remove movie to favourires</td>
+        <td>/user/[username]</td>
+        <td>DELETE</td>
+        <td>none</td>
+        <td>text message saying that a user email has been removed  </td>
+      </tr>
+  </table>
   </body>
 </html>
