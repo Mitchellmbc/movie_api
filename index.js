@@ -82,7 +82,6 @@ app.get('/', (req, res) => {
 
 app.get('/movies/:title', (req,res) => {
   res.send("the function is working");
-  console.log(req.title);
   res.json(topMovies.find((title) =>
   {return topMovies.title === req.params.title}));
 });
