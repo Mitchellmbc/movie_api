@@ -80,6 +80,13 @@ app.get('/', (req, res) => {
   res.send('Welcome to my movie catalogue!');
 });
 
+app.get('/movies/:title', (req,res) => {
+  res.send("the function is working");
+  console.log(req.title);
+  res.json(topMovies.find((title) =>
+  {return topMovies.title === req.params.title}));
+});
+
 // app.get('/documentation', (req, res) => {
 //   res.sendFile('public/documentation.html', { root: __dirname });
 // });
