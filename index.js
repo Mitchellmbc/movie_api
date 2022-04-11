@@ -55,7 +55,8 @@ let topMovies = [
 ];
 
 const bodyParser = require('body-parser'),
-  methodOverride = require('method-override');
+  methodOverride = require('method-override')
+  uuid = require('uuid');
 
 app.use(bodyParser.urlencoded({
   extended: true
