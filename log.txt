@@ -57,3 +57,47 @@ combiend
 combiend
 combiend
 combiend
+combiend
+combiend
+combiend
+combiend
+combiend
+combiend
+combiend
+combiend
+combiend
+combiend
+combiend
+combiend
+combiend
+combiend
+combiend
+combiend
+::ffff:127.0.0.1 - - [25/Apr/2022:16:13:56 +0000] "GET / HTTP/1.1" 200 30 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50"
+::ffff:127.0.0.1 - - [25/Apr/2022:16:13:56 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://127.0.0.1:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50"
+::ffff:127.0.0.1 - - [25/Apr/2022:16:14:02 +0000] "GET /movies/Dune HTTP/1.1" 200 23 "-" "PostmanRuntime/7.29.0"
+::ffff:127.0.0.1 - - [25/Apr/2022:16:15:14 +0000] "GET /movies/Dune HTTP/1.1" 200 23 "-" "PostmanRuntime/7.29.0"
+::ffff:127.0.0.1 - - [25/Apr/2022:16:15:15 +0000] "GET /movies/Dune HTTP/1.1" 200 23 "-" "PostmanRuntime/7.29.0"
+::ffff:127.0.0.1 - - [25/Apr/2022:16:15:23 +0000] "GET /Dune HTTP/1.1" 404 143 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50"
+::1 - - [25/Apr/2022:16:15:46 +0000] "GET /movies/Dune HTTP/1.1" 200 23 "-" "PostmanRuntime/7.29.0"
+::1 - - [25/Apr/2022:16:16:48 +0000] "GET /movies/Dune?:name=bob&:username HTTP/1.1" 200 23 "-" "PostmanRuntime/7.29.0"
+::ffff:127.0.0.1 - - [25/Apr/2022:16:18:27 +0000] "GET /Dune HTTP/1.1" 404 143 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50"
+::1 - - [25/Apr/2022:16:18:44 +0000] "GET /movies/Dune?:name=bob&:username HTTP/1.1" 200 23 "-" "PostmanRuntime/7.29.0"
+::1 - - [25/Apr/2022:16:19:21 +0000] "GET /movies/Dune HTTP/1.1" 200 23 "-" "PostmanRuntime/7.29.0"
+::1 - - [25/Apr/2022:16:19:38 +0000] "GET /movies/Dune HTTP/1.1" 200 23 "-" "PostmanRuntime/7.29.0"
+::1 - - [25/Apr/2022:16:21:48 +0000] "GET /movies/Dune HTTP/1.1" 200 46 "-" "PostmanRuntime/7.29.0"
+::ffff:127.0.0.1 - - [25/Apr/2022:16:36:42 +0000] "GET /Dune HTTP/1.1" 404 143 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50"
+::ffff:127.0.0.1 - - [25/Apr/2022:16:36:43 +0000] "GET /Dune HTTP/1.1" 404 143 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50"
+::ffff:127.0.0.1 - - [25/Apr/2022:16:39:26 +0000] "GET /dune HTTP/1.1" 404 143 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50"
+::ffff:127.0.0.1 - - [25/Apr/2022:16:39:30 +0000] "GET /Dune HTTP/1.1" 404 143 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50"
+::1 - - [25/Apr/2022:16:39:35 +0000] "GET /movies/Dune HTTP/1.1" 200 63 "-" "PostmanRuntime/7.29.0"
+::1 - - [25/Apr/2022:16:41:27 +0000] "GET /movies/Dune HTTP/1.1" 200 63 "-" "PostmanRuntime/7.29.0"
+::1 - - [25/Apr/2022:16:41:47 +0000] "GET /Sci-fi HTTP/1.1" 404 145 "-" "PostmanRuntime/7.29.0"
+::1 - - [25/Apr/2022:16:41:51 +0000] "GET /Sci-fi HTTP/1.1" 404 145 "-" "PostmanRuntime/7.29.0"
+::1 - - [25/Apr/2022:16:43:45 +0000] "GET /movies/genre/Comedy HTTP/1.1" 200 77 "-" "PostmanRuntime/7.29.0"
+::1 - - [25/Apr/2022:16:54:13 +0000] "GET /movies/genre/Comedy HTTP/1.1" 200 - "-" "PostmanRuntime/7.29.0"
+::1 - - [25/Apr/2022:16:54:15 +0000] "GET /movies/genre/Comedy HTTP/1.1" 200 - "-" "PostmanRuntime/7.29.0"
+::1 - - [25/Apr/2022:16:55:49 +0000] "GET /movies/genre/Comedy HTTP/1.1" 500 1439 "-" "PostmanRuntime/7.29.0"
+::1 - - [25/Apr/2022:16:56:57 +0000] "GET /movies/genre/Comedy HTTP/1.1" 500 1439 "-" "PostmanRuntime/7.29.0"
+::1 - - [25/Apr/2022:16:56:58 +0000] "GET /movies/genre/Comedy HTTP/1.1" 500 1439 "-" "PostmanRuntime/7.29.0"
+::1 - - [25/Apr/2022:16:57:12 +0000] "GET /movies/genre/Superhero HTTP/1.1" 500 1439 "-" "PostmanRuntime/7.29.0"
